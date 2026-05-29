@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TronMax — #1 TRON Energy Rental Platform | Buy &amp; Sell TRON Energy, Save USDT TRC20 Fees</title>
+  <meta name="description" content="TronMax is the leading TRON Energy rental marketplace. Buy, rent, sell &amp; stake TRON Energy to eliminate USDT TRC20 transaction fees. Save up to 80% vs burning TRX. Fast, non-custodial, and built for real TRC20 users."/>
+  <meta name="keywords" content="TRON energy rental, buy TRON energy, TRON energy marketplace, TRC20 fee reduction, USDT TRC20 fees, rent TRON energy, TRON bandwidth, TRX energy, TRON energy staking, save USDT fees, TRC20 transaction fees, TRON energy price, tronmax, energy delegation TRON, TRON resource rental, cheap TRON transactions, free TRON energy, TRON DeFi, TRC20 gas fees, TRON network resources"/>
+  <meta name="author" content="TronMax"/>
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <link rel="canonical" href="https://tronmax.vercel.app/"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://tronmax.vercel.app/"/>
+  <meta property="og:title" content="TronMax — Buy &amp; Sell TRON Energy | Save USDT TRC20 Fees Instantly"/>
+  <meta property="og:description" content="Rent TRON Energy instead of burning TRX. Save up to 80% on USDT TRC20 transaction fees. Instant energy delegation, real-time pricing, non-custodial TRON energy marketplace."/>
+  <meta property="og:image" content="https://tronmax.vercel.app/og-image4.png"/>
+  <meta property="og:site_name" content="TronMax"/>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@TronMaxIO"/>
+  <meta name="twitter:title" content="TronMax — TRON Energy Rental | Zero USDT TRC20 Fees"/>
+  <meta name="twitter:description" content="Buy, rent, sell &amp; stake TRON Energy. Eliminate USDT TRC20 transaction fees for just ~3 TRX. The fastest non-custodial energy marketplace on TRON."/>
+  <meta name="twitter:image" content="https://tronmax.vercel.app/og-image4.png"/>
+
+  <!-- JSON-LD WebSite -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"TronMax","url":"https://tronmax.vercel.app","description":"TronMax is the leading TRON Energy rental marketplace, helping users reduce USDT TRC20 transaction fees by renting TRON Energy instead of burning TRX.","potentialAction":{"@type":"SearchAction","target":"https://tronmax.vercel.app/?q={search_term_string}","query-input":"required name=search_term_string"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"TronMax","applicationCategory":"FinanceApplication","operatingSystem":"Web Browser","url":"https://tronmax.vercel.app","description":"TronMax provides instant TRON Energy rental, allowing users to eliminate USDT TRC20 transaction fees without burning TRX. Features include automated energy delegation, real-time pricing, energy staking, and a non-custodial marketplace.","offers":{"@type":"Offer","price":"3","priceCurrency":"TRX"},"featureList":["TRON Energy Rental","USDT TRC20 Fee Elimination","Energy Staking","Bandwidth Rental","Real-time Energy Pricing","Non-custodial Delegation","Bulk Energy Orders","API Access","Energy Selling Marketplace","TRX Staking Rewards"]}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is TronMax?","acceptedAnswer":{"@type":"Answer","text":"TronMax is a non-custodial TRON Energy rental marketplace that helps users reduce USDT TRC20 transaction fees by renting TRON Energy instead of burning TRX. Users can buy, rent, sell, and stake TRON Energy through an automated delegation system."}},{"@type":"Question","name":"How does TRON Energy rental work?","acceptedAnswer":{"@type":"Answer","text":"When you rent TRON Energy on TronMax, the platform delegates the requested energy amount to your wallet instantly. You can then execute USDT TRC20 transactions for free (or near-free) during the rental period, instead of burning TRX on every transaction."}},{"@type":"Question","name":"How much does it cost to rent TRON Energy?","acceptedAnswer":{"@type":"Answer","text":"Renting TRON Energy on TronMax costs approximately 3 TRX for enough energy to execute a standard USDT TRC20 transfer, compared to 13–15 TRX burned per transaction without energy. Bulk and long-duration rentals are available at even lower rates."}}]}
+  </script>
+
+  <!-- Favicon SVG inline -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='fg' x1='0' y1='0' x2='64' y2='64' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2300E5FF'/%3E%3Cstop offset='0.5' stop-color='%230066FF'/%3E%3Cstop offset='1' stop-color='%236C00FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230a0a18'/%3E%3Cpolygon points='32,8 52,20 52,44 32,56 12,44 12,20' fill='none' stroke='url(%23fg)' stroke-width='2.5'/%3E%3Cpolygon points='32,16 46,24 46,40 32,48 18,40 18,24' fill='url(%23fg)' opacity='0.12'/%3E%3Cpath d='M22 28 L32 20 L42 28 L32 48 Z' fill='url(%23fg)' opacity='0.9'/%3E%3Ccircle cx='32' cy='28' r='3.5' fill='%2300E5FF'/%3E%3C/svg%3E"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg:       #06060f;
+      --bg2:      #090914;
+      --bg3:      #0d0d1f;
+      --surface:  rgba(255,255,255,0.03);
+      --surface2: rgba(255,255,255,0.06);
+      --border:   rgba(0,229,255,0.10);
+      --border2:  rgba(0,229,255,0.26);
+
+      --cyan:     #00E5FF;
+      --cyan2:    #00b8cc;
+      --cyan3:    #80f3ff;
+      --blue:     #0066FF;
+      --blue2:    #3d8bff;
+      --violet:   #6C00FF;
+      --violet2:  #9b4dff;
+      --green:    #00FF87;
+      --green2:   #00cc6a;
+
+      --text:     #e8f4ff;
+      --dim:      #3a4a6a;
+      --muted:    #0d0d1f;
+      --white:    #f0f8ff;
+
+      --r:  10px;
+      --r2: 16px;
+      --r3: 24px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Outfit', sans-serif; overflow-x: hidden; }
+
+    /* ══ BG ══ */
+    .bg-scene { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+    .bg-scene::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(0,229,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,229,255,0.03) 1px, transparent 1px);
+      background-size: 52px 52px;
+    }
+    .bg-scene::after {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 60% 55% at 10%  0%,   rgba(108,0,255,0.18)  0%, transparent 60%),
+        radial-gradient(ellipse 50% 45% at 90% 8%,   rgba(0,102,255,0.14)  0%, transparent 55%),
+        radial-gradient(ellipse 45% 40% at 50% 100%,  rgba(0,229,255,0.10)  0%, transparent 55%),
+        radial-gradient(ellipse 35% 30% at 80% 50%,  rgba(108,0,255,0.08)  0%, transparent 50%);
+    }
+    .hex-bg {
+      position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='52'%3E%3Cpolygon points='30,1 59,16 59,46 30,51 1,46 1,16' fill='none' stroke='rgba(0,229,255,0.04)' stroke-width='1'/%3E%3C/svg%3E");
+      background-size: 60px 52px; opacity: 0.6;
+    }
+    .scan-line { position: absolute; left: 0; right: 0; height: 1px; pointer-events: none; }
+    .sl1 { top: 72px; background: linear-gradient(90deg, transparent, rgba(0,229,255,0.30) 30%, rgba(0,102,255,0.30) 70%, transparent); }
+    .sl2 { bottom: 0; background: linear-gradient(90deg, transparent, rgba(108,0,255,0.22) 30%, rgba(108,0,255,0.22) 70%, transparent); }
+
+    /* ══ NAV ══ */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      height: 72px;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 52px;
+      background: rgba(6,6,15,0.90);
+      backdrop-filter: blur(36px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .logo-icon { width: 42px; height: 42px; flex-shrink: 0; }
+    .logo-text { display: flex; flex-direction: column; }
+    .logo-name {
+      font-family: 'Syne', sans-serif;
+      font-size: 22px; font-weight: 800; letter-spacing: 0.5px; color: var(--text); line-height: 1.1;
+    }
+    .logo-name .ac { 
+      background: linear-gradient(90deg, var(--cyan), var(--blue));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .logo-sub {
+      font-family: 'Space Mono', monospace;
+      font-size: 8px; font-weight: 400; letter-spacing: 2.5px; text-transform: uppercase; color: var(--dim);
+    }
+    .nav-mid { display: flex; gap: 2px; }
+    .nav-a {
+      padding: 7px 16px; border-radius: 8px;
+      color: var(--dim); font-size: 13px; font-weight: 500;
+      text-decoration: none; transition: all .2s;
+    }
+    .nav-a:hover { color: var(--text); background: var(--surface2); }
+    .nav-a.on { color: var(--cyan); background: rgba(0,229,255,0.08); }
+    .nav-r { display: flex; align-items: center; gap: 10px; }
+    .net-badge {
+      display: flex; align-items: center; gap: 7px;
+      padding: 5px 14px; border-radius: 100px;
+      background: rgba(0,229,255,0.06); border: 1px solid rgba(0,229,255,0.20);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px; font-weight: 700; color: var(--cyan); letter-spacing: 1px;
+    }
+    .net-badge .dot { width: 5px; height: 5px; background: var(--green); border-radius: 50%; animation: blinkDot 2s infinite; flex-shrink: 0; }
+
+    /* ══ BUTTONS ══ */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 10px 22px; border-radius: var(--r);
+      font-family: 'Outfit', sans-serif;
+      font-size: 13px; font-weight: 700; letter-spacing: 0.2px;
+      cursor: pointer; border: none; text-decoration: none;
+      transition: all .22s cubic-bezier(.4,0,.2,1);
+      white-space: nowrap;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--cyan) 0%, var(--blue) 60%, var(--violet) 100%);
+      color: #fff; font-weight: 800;
+      box-shadow: 0 4px 24px rgba(0,229,255,0.30), 0 0 0 1px rgba(0,229,255,0.15) inset;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 40px rgba(0,229,255,0.50), 0 0 60px rgba(0,102,255,0.20); }
+    .btn-blue {
+      background: linear-gradient(135deg, var(--blue), var(--violet));
+      color: #fff; font-weight: 800;
+      box-shadow: 0 4px 24px rgba(0,102,255,0.30), inset 0 1px 0 rgba(255,255,255,0.10);
+    }
+    .btn-blue:hover { transform: translateY(-2px); box-shadow: 0 8px 40px rgba(108,0,255,0.45); }
+    .btn-green {
+      background: linear-gradient(135deg, var(--green), var(--green2));
+      color: #050f0a; font-weight: 800;
+      box-shadow: 0 4px 24px rgba(0,255,135,0.25), inset 0 1px 0 rgba(255,255,255,0.15);
+    }
+    .btn-green:hover { transform: translateY(-2px); box-shadow: 0 8px 36px rgba(0,255,135,0.40); }
+    .btn-outline {
+      background: transparent; color: var(--cyan);
+      border: 1px solid rgba(0,229,255,0.30);
+    }
+    .btn-outline:hover { background: rgba(0,229,255,0.07); border-color: rgba(0,229,255,0.55); transform: translateY(-1px); }
+    .btn-ghost {
+      background: var(--surface2); color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-ghost:hover { border-color: var(--border2); background: rgba(0,229,255,0.05); transform: translateY(-1px); }
+    .btn-violet {
+      background: linear-gradient(135deg, var(--violet), #4400cc);
+      color: #fff; font-weight: 800;
+      box-shadow: 0 4px 22px rgba(108,0,255,0.35), inset 0 1px 0 rgba(255,255,255,0.10);
+    }
+    .btn-violet:hover { transform: translateY(-2px); box-shadow: 0 8px 36px rgba(108,0,255,0.55); }
+    .btn-lg { padding: 14px 32px; font-size: 15px; border-radius: var(--r2); }
+    .btn-sm { padding: 7px 14px; font-size: 12px; border-radius: 8px; }
+    .btn-full { width: 100%; }
+
+    /* ══ HERO ══ */
+    .hero {
+      position: relative; z-index: 1;
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 130px 24px 90px;
+    }
+    .hero-label {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 6px 18px 6px 10px; border-radius: 100px;
+      background: rgba(0,229,255,0.07); border: 1px solid rgba(0,229,255,0.22);
+      font-size: 12px; font-weight: 600; color: var(--cyan3);
+      margin-bottom: 30px; animation: fadeUp .5s ease both;
+    }
+    .hero-label .chip {
+      background: linear-gradient(135deg, var(--cyan), var(--blue));
+      color: #fff; font-weight: 800; font-size: 9px;
+      padding: 2px 9px; border-radius: 100px; letter-spacing: 1.2px; text-transform: uppercase;
+    }
+    .hero-h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(52px, 9vw, 108px);
+      font-weight: 800; letter-spacing: -1px; line-height: .92;
+      margin-bottom: 20px; animation: fadeUp .5s .1s ease both;
+    }
+    .hero-h1 .l1 { display: block; color: var(--text); }
+    .hero-h1 .l2 {
+      display: block;
+      background: linear-gradient(110deg, var(--cyan3) 0%, var(--cyan) 25%, var(--blue2) 50%, var(--violet2) 75%, var(--cyan3) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      background-size: 200% auto;
+      animation: fadeUp .5s .1s ease both, shimmer 8s ease infinite;
+    }
+    .hero-subtitle {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px; font-weight: 400; color: var(--dim);
+      letter-spacing: 2.5px; text-transform: uppercase;
+      margin-bottom: 20px; animation: fadeUp .5s .15s ease both;
+    }
+    .hero-subtitle .sep { margin: 0 10px; opacity: 0.3; }
+    .hero-sub {
+      max-width: 580px; font-size: 17px; color: var(--dim);
+      line-height: 1.80; font-weight: 400;
+      margin-bottom: 44px; animation: fadeUp .5s .2s ease both;
+    }
+    .hero-sub strong { color: var(--cyan); font-weight: 600; }
+
+    .app-btns {
+      display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;
+      margin-bottom: 50px; animation: fadeUp .5s .25s ease both;
+    }
+
+    /* ══ ENERGY WIDGET ══ */
+    .widget-box {
+      background: rgba(6,6,15,0.98);
+      border: 1px solid rgba(0,229,255,0.22);
+      border-radius: var(--r3);
+      padding: 30px;
+      width: 100%; max-width: 480px;
+      backdrop-filter: blur(40px);
+      box-shadow: 0 0 0 1px rgba(0,229,255,0.04), 0 32px 80px rgba(0,0,0,0.95), 0 0 100px rgba(0,229,255,0.05);
+      animation: fadeUp .5s .3s ease both;
+      margin-bottom: 56px;
+      position: relative;
+    }
+    .widget-box::before {
+      content: '';
+      position: absolute; top: 0; left: 15%; right: 15%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--cyan), var(--blue), transparent);
+    }
+    .wb-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 22px; }
+    .wb-title { font-family: 'Space Mono', monospace; font-size: 10px; font-weight: 700; color: var(--cyan); letter-spacing: 2.5px; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
+    .wb-live { display: flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 100px; background: rgba(0,255,135,0.08); border: 1px solid rgba(0,255,135,0.20); font-family: 'Space Mono', monospace; font-size: 9px; font-weight: 700; color: var(--green); }
+    .wb-live .ldot { width: 5px; height: 5px; border-radius: 50%; background: var(--green); animation: blinkDot 1.5s infinite; }
+
+    /* tabs */
+    .w-tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 20px; }
+    .w-tab {
+      padding: 9px 6px; border-radius: 8px; text-align: center;
+      background: rgba(0,229,255,0.03); border: 1px solid var(--border);
+      font-size: 11px; font-weight: 700; cursor: pointer; transition: all .15s;
+      color: var(--dim);
+    }
+    .w-tab.active { border-color: rgba(0,229,255,0.35); background: rgba(0,229,255,0.09); color: var(--cyan); }
+    .w-tab-icon { font-size: 16px; display: block; margin-bottom: 3px; }
+
+    /* input */
+    .w-field {
+      background: rgba(0,229,255,0.03); border: 1px solid var(--border);
+      border-radius: var(--r); padding: 16px 18px; margin-bottom: 10px;
+      transition: border-color .2s;
+    }
+    .w-field:hover { border-color: var(--border2); }
+    .wf-label { font-family: 'Space Mono', monospace; font-size: 8px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--dim); display: block; margin-bottom: 8px; }
+    .wf-row { display: flex; align-items: center; justify-content: space-between; }
+    .wf-input {
+      font-family: 'Space Mono', monospace;
+      font-size: 18px; font-weight: 700; color: var(--text);
+      background: none; border: none; outline: none; width: 100%;
+    }
+    .wf-input::placeholder { color: var(--dim); font-size: 16px; font-weight: 400; }
+    .wf-unit { font-family: 'Space Mono', monospace; font-size: 10px; font-weight: 700; color: var(--cyan); background: rgba(0,229,255,0.08); border: 1px solid rgba(0,229,255,0.18); padding: 4px 10px; border-radius: 6px; flex-shrink: 0; }
+
+    /* price info */
+    .w-price-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+    .wp-cell { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 12px; text-align: center; }
+    .wp-label { font-family: 'Space Mono', monospace; font-size: 8px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--dim); display: block; margin-bottom: 5px; }
+    .wp-val { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 800; }
+    .wp-val.c { color: var(--cyan); }
+    .wp-val.g { color: var(--green); }
+    .wp-val.v { color: var(--violet2); }
+
+    .w-info { background: rgba(0,229,255,0.03); border: 1px solid rgba(0,229,255,0.10); border-radius: var(--r); padding: 12px 14px; margin-bottom: 14px; }
+    .wi-row { display: flex; justify-content: space-between; font-family: 'Space Mono', monospace; font-size: 10px; color: var(--dim); padding: 3px 0; }
+    .wi-row .v { color: var(--text); font-weight: 700; }
+    .wi-row .c { color: var(--cyan); font-weight: 700; }
+    .wi-row .g { color: var(--green); font-weight: 700; }
+
+    .energy-badge {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 3px 10px; border-radius: 100px;
+      background: rgba(0,229,255,0.07); border: 1px solid rgba(0,229,255,0.18);
+      font-family: 'Space Mono', monospace;
+      font-size: 8px; font-weight: 700; color: var(--cyan); letter-spacing: 1.5px;
+    }
+
+    /* duration selector */
+    .duration-btns { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+    .dur-btn {
+      padding: 6px 14px; border-radius: 8px; font-size: 11px; font-weight: 700;
+      border: 1px solid var(--border); background: var(--surface); color: var(--dim);
+      cursor: pointer; transition: all .15s; font-family: 'Space Mono', monospace;
+    }
+    .dur-btn.active { border-color: rgba(0,229,255,0.35); background: rgba(0,229,255,0.09); color: var(--cyan); }
+
+    /* ══ STATS ══ */
+    .stats-band {
+      display: flex; border: 1px solid var(--border); border-radius: var(--r2);
+      overflow: hidden; background: rgba(6,6,15,0.92); backdrop-filter: blur(20px);
+      max-width: 980px; width: 100%;
+      animation: fadeUp .5s .42s ease both;
+    }
+    .st { flex: 1; padding: 24px 16px; text-align: center; border-right: 1px solid var(--border); }
+    .st:last-child { border-right: none; }
+    .st-n { font-family: 'Syne', sans-serif; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; display: block; margin-bottom: 4px; }
+    .st-n.c { color: var(--cyan); }
+    .st-n.b { color: var(--blue2); }
+    .st-n.g { color: var(--green); }
+    .st-n.v { color: var(--violet2); }
+    .st-n.w { color: var(--white); }
+    .st-l { font-size: 10px; color: var(--dim); text-transform: uppercase; letter-spacing: 1.2px; font-weight: 600; font-family: 'Space Mono', monospace; }
+
+    /* ══ TICKER ══ */
+    .ticker {
+      position: relative; z-index: 1; overflow: hidden;
+      background: rgba(6,6,15,0.85);
+      border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 11px 0;
+    }
+    .tk-track { display: flex; gap: 44px; animation: tickMove 55s linear infinite; white-space: nowrap; }
+    .tk-i { display: flex; align-items: center; gap: 8px; font-family: 'Space Mono', monospace; font-size: 10px; font-weight: 400; }
+    .tk-i .l { color: var(--dim); }
+    .tk-i .c { color: var(--cyan); }
+    .tk-i .g { color: var(--green); }
+    .tk-i .v { color: var(--violet2); }
+    .tk-i .b { color: var(--blue2); }
+    .tk-sep { width: 3px; height: 3px; border-radius: 50%; background: var(--border2); flex-shrink: 0; }
+
+    /* ══ SECTION ══ */
+    .sec { position: relative; z-index: 1; padding: 90px 56px; max-width: 1240px; margin: 0 auto; }
+    .stag {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-family: 'Space Mono', monospace;
+      font-size: 9px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--cyan); margin-bottom: 16px;
+    }
+    .stag::before { content: '//'; opacity: 0.4; }
+    .h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(34px, 5vw, 58px); font-weight: 800; letter-spacing: -0.5px;
+      color: var(--text); line-height: 1.0; margin-bottom: 16px;
+    }
+    .h2 .hc { color: var(--cyan); }
+    .h2 .hb { color: var(--blue2); }
+    .h2 .hv { color: var(--violet2); }
+    .h2 .hg { color: var(--green); }
+    .desc { font-size: 15px; color: var(--dim); line-height: 1.84; max-width: 500px; }
+
+    /* ══ HOW IT WORKS ══ */
+    .feat-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-top: 48px; }
+    .feat-card {
+      background: rgba(6,6,15,0.99); border: 1px solid var(--border);
+      border-radius: var(--r2); padding: 30px 22px;
+      position: relative; overflow: hidden;
+      transition: border-color .25s, transform .25s;
+    }
+    .feat-card:hover { border-color: var(--border2); transform: translateY(-5px); }
+    .feat-card::after { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; opacity: 0; transition: opacity .25s; }
+    .feat-card:nth-child(1)::after { background: linear-gradient(90deg, var(--cyan), transparent); }
+    .feat-card:nth-child(2)::after { background: linear-gradient(90deg, var(--blue), transparent); }
+    .feat-card:nth-child(3)::after { background: linear-gradient(90deg, var(--violet), transparent); }
+    .feat-card:nth-child(4)::after { background: linear-gradient(90deg, var(--green), transparent); }
+    .feat-card:hover::after { opacity: 1; }
+    .fc-num {
+      font-family: 'Syne', sans-serif; font-weight: 800;
+      font-size: 64px; letter-spacing: -2px;
+      color: rgba(0,229,255,0.05); position: absolute; top: 4px; right: 10px; line-height: 1;
+    }
+    .fc-icon { font-size: 28px; margin-bottom: 16px; display: block; }
+    .feat-card h3 { font-family: 'Syne', sans-serif; font-size: 17px; font-weight: 700; margin-bottom: 10px; }
+    .feat-card p { font-size: 13px; color: var(--dim); line-height: 1.74; }
+    .fc-btn { margin-top: 20px; }
+
+    /* ══ PRODUCTS ══ */
+    .prod-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin-top: 48px; }
+    .prod-card {
+      background: rgba(6,6,15,0.99); border: 1px solid var(--border);
+      border-radius: var(--r2); padding: 34px 28px;
+      transition: border-color .25s, transform .25s; position: relative; overflow: hidden;
+    }
+    .prod-card:hover { border-color: var(--border2); transform: translateY(-5px); }
+    .prod-card.feat-c { border-color: rgba(0,229,255,0.18); background: linear-gradient(145deg, rgba(0,229,255,0.04) 0%, rgba(6,6,15,0.99) 100%); }
+    .prod-card.feat-c::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--cyan), transparent); }
+    .prod-card.feat-b { border-color: rgba(0,102,255,0.20); background: linear-gradient(145deg, rgba(0,102,255,0.05) 0%, rgba(6,6,15,0.99) 100%); }
+    .prod-card.feat-b::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--blue), transparent); }
+    .prod-card.feat-v { border-color: rgba(108,0,255,0.20); background: linear-gradient(145deg, rgba(108,0,255,0.05) 0%, rgba(6,6,15,0.99) 100%); }
+    .prod-card.feat-v::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--violet), transparent); }
+    .pc-icon { font-size: 32px; margin-bottom: 18px; display: block; }
+    .prod-card h3 { font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 800; margin-bottom: 10px; }
+    .prod-card h3 .ac { color: var(--cyan); }
+    .prod-card h3 .ab { color: var(--blue2); }
+    .prod-card h3 .av { color: var(--violet2); }
+    .prod-card > p { font-size: 14px; color: var(--dim); line-height: 1.78; margin-bottom: 24px; }
+    .stat-row { display: flex; gap: 12px; margin-bottom: 22px; }
+    .s-cell { flex: 1; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 13px; }
+    .s-lbl { font-family: 'Space Mono', monospace; font-size: 8px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--dim); display: block; margin-bottom: 5px; }
+    .s-val { font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 800; }
+
+    /* ══ SAVINGS SECTION ══ */
+    .savings-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 48px; }
+    .sav-card {
+      background: rgba(6,6,15,0.99); border: 1px solid var(--border);
+      border-radius: var(--r2); padding: 38px; position: relative; overflow: hidden;
+    }
+    .sav-card.feat-main { border-color: rgba(0,229,255,0.20); background: linear-gradient(145deg, rgba(0,229,255,0.04) 0%, rgba(6,6,15,0.99) 100%); }
+    .sav-card.feat-main::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--cyan), transparent); }
+    .sav-card h3 { font-family: 'Syne', sans-serif; font-size: 24px; font-weight: 800; margin-bottom: 10px; }
+    .sav-card h3 span { color: var(--cyan); }
+    .sav-card > p { font-size: 14px; color: var(--dim); line-height: 1.80; margin-bottom: 26px; }
+    .compare-row {
+      display: flex; align-items: center; gap: 12px;
+      padding: 13px 16px; background: rgba(0,229,255,0.04);
+      border: 1px solid rgba(0,229,255,0.10); border-radius: var(--r);
+      margin-bottom: 10px;
+    }
+    .cr-ico { font-size: 20px; flex-shrink: 0; }
+    .cr-info { flex: 1; }
+    .cr-title { font-size: 13px; font-weight: 700; }
+    .cr-sub { font-size: 11px; color: var(--dim); margin-top: 2px; }
+    .cr-cost { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+    .cost-bad  { color: #ff4d4d; }
+    .cost-good { color: var(--green); }
+    .mini-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+    .ms-cell { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 15px; }
+    .ms-l { font-family: 'Space Mono', monospace; font-size: 8px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--dim); display: block; margin-bottom: 6px; }
+    .ms-v { font-family: 'Syne', sans-serif; font-size: 26px; font-weight: 800; }
+
+    /* ══ STAKING / PLANS ══ */
+    .plan-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-top: 48px; }
+    .plan-card {
+      background: rgba(6,6,15,0.99); border: 1px solid var(--border);
+      border-radius: var(--r2); padding: 28px 22px;
+      transition: border-color .25s, transform .25s; position: relative; overflow: hidden;
+    }
+    .plan-card:hover { border-color: var(--border2); transform: translateY(-5px); }
+    .plan-card.featured { border-color: rgba(0,229,255,0.28); }
+    .plan-card.featured::before { content: 'POPULAR'; position: absolute; top: 14px; right: 14px; font-family: 'Space Mono', monospace; font-size: 7px; font-weight: 700; letter-spacing: 2px; background: rgba(0,229,255,0.12); border: 1px solid rgba(0,229,255,0.25); color: var(--cyan); padding: 3px 8px; border-radius: 4px; }
+    .plan-icon { font-size: 30px; margin-bottom: 14px; display: block; }
+    .plan-card h3 { font-family: 'Syne', sans-serif; font-size: 17px; font-weight: 800; margin-bottom: 8px; }
+    .plan-price { font-family: 'Syne', sans-serif; font-size: 28px; font-weight: 800; margin-bottom: 6px; }
+    .plan-price span { font-size: 14px; font-weight: 400; color: var(--dim); }
+    .plan-card p { font-size: 12.5px; color: var(--dim); line-height: 1.72; margin-bottom: 16px; }
+
+    /* ══ BANNER ══ */
+    .banner-wrap { position: relative; z-index: 1; max-width: 1240px; margin: 0 auto; padding: 0 56px; }
+    .banner-inner {
+      background: linear-gradient(120deg, rgba(108,0,255,0.12) 0%, rgba(0,102,255,0.08) 50%, rgba(0,229,255,0.10) 100%);
+      border: 1px solid rgba(0,229,255,0.16);
+      border-radius: var(--r3); padding: 56px 60px;
+      display: flex; align-items: center; justify-content: space-between; gap: 28px;
+      overflow: hidden; position: relative;
+    }
+    .banner-inner::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(0,229,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,229,255,0.02) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+    .banner-inner::after {
+      content: '⬡'; position: absolute; right: 52px; top: 50%; transform: translateY(-50%);
+      font-size: 220px; color: rgba(0,229,255,0.025); line-height: 1; pointer-events: none;
+    }
+    .bi-text { position: relative; z-index: 1; }
+    .bi-text h2 { font-family: 'Syne', sans-serif; font-size: 38px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 12px; }
+    .bi-text h2 span { color: var(--cyan); }
+    .bi-text p { font-size: 15px; color: var(--dim); line-height: 1.80; max-width: 480px; }
+    .bi-btns { display: flex; gap: 12px; flex-shrink: 0; position: relative; z-index: 1; }
+
+    /* ══ FAQ ══ */
+    .faq-g { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 44px; }
+    .faq-i {
+      background: rgba(6,6,15,0.99); border: 1px solid var(--border);
+      border-radius: var(--r); padding: 24px 26px; transition: border-color .2s;
+    }
+    .faq-i:hover { border-color: var(--border2); }
+    .faq-i h3 { font-family: 'Syne', sans-serif; font-size: 14.5px; font-weight: 700; margin-bottom: 9px; color: var(--cyan3); }
+    .faq-i p { font-size: 12.5px; color: var(--dim); line-height: 1.80; }
+
+    /* ══ FOOTER ══ */
+    footer {
+      position: relative; z-index: 1;
+      border-top: 1px solid var(--border);
+      padding: 56px 56px;
+      display: grid; grid-template-columns: 1.3fr 1fr 1.2fr;
+      align-items: start; gap: 28px;
+    }
+    .ft-brand p { font-size: 12px; color: var(--dim); margin-top: 14px; line-height: 1.70; max-width: 280px; }
+    .ft-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+    .ft-links a { color: var(--dim); text-decoration: none; font-size: 13px; font-weight: 500; transition: color .2s; }
+    .ft-links a:hover { color: var(--cyan); }
+    .ft-r { text-align: right; }
+    .ft-r p { font-size: 11px; color: var(--dim); line-height: 1.68; }
+
+    /* ══ DIVIDER ══ */
+    .divider { height: 1px; background: var(--border); position: relative; z-index: 1; }
+
+    /* ══ ANIMATIONS ══ */
+    @keyframes fadeUp  { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes blinkDot { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(0,229,255,.4)} 50%{opacity:.5;box-shadow:0 0 0 5px rgba(0,229,255,0)} }
+    @keyframes shimmer { 0%,100%{background-position:0% center} 50%{background-position:100% center} }
+    @keyframes tickMove { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+    @keyframes pulse-ring { 0%{box-shadow:0 0 0 0 rgba(0,229,255,0.3)} 100%{box-shadow:0 0 0 20px rgba(0,229,255,0)} }
+
+    /* ══ RESPONSIVE ══ */
+    @media(max-width:960px){
+      nav { padding:0 20px; }
+      .nav-mid { display:none; }
+      .sec { padding:60px 20px; }
+      .feat-grid { grid-template-columns:1fr 1fr; }
+      .prod-grid { grid-template-columns:1fr; }
+      .savings-grid { grid-template-columns:1fr; }
+      .plan-grid { grid-template-columns:1fr 1fr; }
+      .faq-g { grid-template-columns:1fr; }
+      .banner-inner { flex-direction:column; padding:36px 24px; }
+      .banner-wrap { padding:0 20px; }
+      footer { grid-template-columns:1fr; text-align:center; padding:36px 20px; }
+      .ft-r { text-align:center; } .ft-brand p { max-width:100%; }
+      .ft-links { justify-content:center; }
+      .stats-band { flex-direction:column; }
+      .st { border-right:none; border-bottom:1px solid var(--border); }
+      .st:last-child { border-bottom:none; }
+      .w-tabs { grid-template-columns:1fr 1fr; }
+    }
+    @media(max-width:600px){
+      .feat-grid { grid-template-columns:1fr; }
+      .plan-grid { grid-template-columns:1fr; }
+      .hero-h1 { font-size: 48px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="bg-scene">
+  <div class="hex-bg"></div>
+  <div class="scan-line sl1"></div>
+  <div class="scan-line sl2"></div>
+</div>
+
+<!-- ══ NAV ══ -->
+<nav aria-label="Main navigation">
+  <a href="/" class="nav-logo" aria-label="TronMax Home">
+    <!-- Logo SVG -->
+    <svg class="logo-icon" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="42" height="42" rx="11" fill="#06060f"/>
+      <defs>
+        <linearGradient id="lg_nav" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#00E5FF"/>
+          <stop offset="0.5" stop-color="#0066FF"/>
+          <stop offset="1" stop-color="#6C00FF"/>
+        </linearGradient>
+      </defs>
+      <polygon points="21,5 37,14 37,28 21,37 5,28 5,14" fill="none" stroke="url(#lg_nav)" stroke-width="1.8"/>
+      <polygon points="21,10 33,17 33,25 21,32 9,25 9,17" fill="url(#lg_nav)" opacity="0.10"/>
+      <path d="M14 19 L21 12 L28 19 L21 36 Z" fill="url(#lg_nav)" opacity="0.90"/>
+      <circle cx="21" cy="18.5" r="3" fill="#00E5FF" opacity="0.95"/>
+    </svg>
+    <div class="logo-text">
+      <span class="logo-name">Tron<span class="ac">Max</span></span>
+      <span class="logo-sub">TRON · ENERGY · MARKETPLACE</span>
+    </div>
+  </a>
+
+  <div class="nav-mid">
+    <a href="#widget" class="nav-a on">Buy Energy</a>
+    <a href="#savings" class="nav-a">Savings</a>
+    <a href="#products" class="nav-a">Products</a>
+    <a href="#staking" class="nav-a">Staking</a>
+    <a href="#pricing" class="nav-a">Pricing</a>
+    <a href="#faq" class="nav-a">FAQ</a>
+  </div>
+
+  <div class="nav-r">
+    <div class="net-badge">
+      <span class="dot"></span>TRON MAINNET
+    </div>
+    <button class="btn btn-ghost btn-sm xsudlmqvbag x2wl7trk" onclick="alert('Connect your TronLink wallet to get started.')">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+      Connect Wallet
+    </button>
+    <button class="btn btn-primary btn-sm xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">Buy Energy</button>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<main>
+  <section class="hero" aria-label="Hero">
+    <div class="hero-label">
+      <span class="chip">Live</span>
+      TRON's #1 Energy Marketplace · Save Up to 80% on USDT TRC20 Fees · Non-Custodial
+    </div>
+
+    <h1 class="hero-h1">
+      <span class="l1">Save TRON</span>
+      <span class="l2">USDT Fees.</span>
+    </h1>
+
+    <p class="hero-subtitle">
+      Buy Energy <span class="sep">·</span> Rent Energy <span class="sep">·</span> Sell Energy <span class="sep">·</span> Stake TRX <span class="sep">·</span> Zero Fees
+    </p>
+
+    <p class="hero-sub">
+      TronMax lets you <strong>rent TRON Energy</strong> instead of burning TRX — execute USDT TRC20 transfers for <strong>~3 TRX</strong> instead of 13–15 TRX. Instant delegation, real-time pricing, fully non-custodial.
+    </p>
+
+    <div class="app-btns">
+      <button class="btn btn-primary btn-lg xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        Buy Energy Now
+      </button>
+      <button class="btn btn-blue btn-lg xsudlmqvbag x2wl7trk" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        Sell Energy
+      </button>
+      <button class="btn btn-green btn-lg xsudlmqvbag x2wl7trk" onclick="document.getElementById('staking').scrollIntoView({behavior:'smooth'})">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Stake &amp; Earn
+      </button>
+      <button class="btn btn-ghost btn-lg xsudlmqvbag x2wl7trk" onclick="alert('API documentation coming soon. Contact us on Telegram @TronMaxEnergyMarket')">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        API Access
+      </button>
+      <button class="btn btn-outline btn-lg xsudlmqvbag x2wl7trk" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        View Pricing
+      </button>
+    </div>
+
+    <!-- ══ ENERGY WIDGET ══ -->
+    <div class="widget-box" id="widget" role="region" aria-label="TRON Energy rental widget">
+      <div class="wb-top">
+        <span class="wb-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          Energy Marketplace
+        </span>
+        <span class="wb-live"><span class="ldot"></span> LIVE</span>
+      </div>
+
+      <!-- Tabs -->
+      <div class="w-tabs" role="tablist">
+        <div class="w-tab active" role="tab" onclick="selectTab(this,'buy')" aria-selected="true">
+          <span class="w-tab-icon">⚡</span>Buy
+        </div>
+        <div class="w-tab" role="tab" onclick="selectTab(this,'sell')" aria-selected="false">
+          <span class="w-tab-icon">💎</span>Sell
+        </div>
+        <div class="w-tab" role="tab" onclick="selectTab(this,'stake')" aria-selected="false">
+          <span class="w-tab-icon">🔒</span>Stake
+        </div>
+        <div class="w-tab" role="tab" onclick="selectTab(this,'api')" aria-selected="false">
+          <span class="w-tab-icon">🔗</span>API
+        </div>
+      </div>
+
+      <!-- Wallet field -->
+      <div class="w-field">
+        <span class="wf-label">Your TRON Wallet Address</span>
+        <div class="wf-row">
+          <input class="wf-input" id="walletInput" type="text" placeholder="T... enter your address" aria-label="TRON wallet address"/>
+        </div>
+      </div>
+
+      <!-- Amount field -->
+      <div class="w-field">
+        <span class="wf-label" id="amountLabel">Energy Amount</span>
+        <div class="wf-row">
+          <input class="wf-input" id="amountInput" type="number" placeholder="65,000" min="0" aria-label="Energy amount"/>
+          <span class="wf-unit" id="unitLabel">ENERGY</span>
+        </div>
+      </div>
+
+      <!-- Duration selector -->
+      <div class="duration-btns" id="durationRow">
+        <span style="font-family:'Space Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:1.5px;align-self:center;">DURATION:</span>
+        <button class="dur-btn active xsudlmqvbag x2wl7trk" onclick="selectDur(this,'1h')">1H</button>
+        <button class="dur-btn xsudlmqvbag x2wl7trk" onclick="selectDur(this,'1d')">1D</button>
+        <button class="dur-btn xsudlmqvbag x2wl7trk" onclick="selectDur(this,'3d')">3D</button>
+        <button class="dur-btn xsudlmqvbag x2wl7trk" onclick="selectDur(this,'7d')">7D</button>
+        <button class="dur-btn xsudlmqvbag x2wl7trk" onclick="selectDur(this,'30d')">30D</button>
+      </div>
+
+      <!-- Price grid -->
+      <div class="w-price-grid">
+        <div class="wp-cell">
+          <span class="wp-label">Price / Energy</span>
+          <span class="wp-val c" id="energyPrice">420 SUN</span>
+        </div>
+        <div class="wp-cell">
+          <span class="wp-label">You Save</span>
+          <span class="wp-val g" id="savingsVal">~80%</span>
+        </div>
+        <div class="wp-cell">
+          <span class="wp-label">Total Cost</span>
+          <span class="wp-val v" id="totalCost">~27 TRX</span>
+        </div>
+      </div>
+
+      <!-- Order info -->
+      <div class="w-info">
+        <div class="wi-row"><span>Network</span><span class="c">TRON Mainnet (TRC20)</span></div>
+        <div class="wi-row"><span>Delegation speed</span><span class="g">Instant &lt;5 sec</span></div>
+        <div class="wi-row"><span>Custody model</span><span class="v">Non-custodial</span></div>
+        <div class="wi-row"><span>Standard USDT transfer</span><span class="v">65,000 energy</span></div>
+      </div>
+
+      <button class="btn btn-primary btn-full btn-lg xsudlmqvbag x2wl7trk" id="actionBtn" style="justify-content:center;margin-bottom:12px;" onclick="handleWidgetAction()">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        <span id="actionBtnText">Rent Energy Instantly</span>
+      </button>
+      <div style="text-align:center;"><span class="energy-badge">TRON BLOCKCHAIN · NON-CUSTODIAL · INSTANT DELEGATION</span></div>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats-band" role="region" aria-label="Platform statistics">
+      <div class="st"><span class="st-n c">2.4B+</span><span class="st-l">Energy Delegated</span></div>
+      <div class="st"><span class="st-n g">~80%</span><span class="st-l">Average Fee Saved</span></div>
+      <div class="st"><span class="st-n b">3 TRX</span><span class="st-l">Avg. Cost per TX</span></div>
+      <div class="st"><span class="st-n v">&lt;5s</span><span class="st-l">Delegation Speed</span></div>
+      <div class="st"><span class="st-n c">180K+</span><span class="st-l">Active Users</span></div>
+      <div class="st"><span class="st-n g">24/7</span><span class="st-l">Live Marketplace</span></div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-label="Live energy market data">
+    <div class="tk-track" aria-hidden="true">
+      <div class="tk-i"><span class="l">Energy Price</span><span class="c">420 SUN / unit</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Bandwidth Price</span><span class="b">1,000 SUN / unit</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Orders Today</span><span class="g">58,420 filled</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Energy Pool</span><span class="c">4.2B available</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">TRX Staked</span><span class="v">820M TRX</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Avg. Savings</span><span class="g">80% vs Burning</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">TRON TPS</span><span class="c">2,000+ tx/sec</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Delegation Speed</span><span class="g">&lt;5 seconds</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Energy Price</span><span class="c">420 SUN / unit</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Bandwidth Price</span><span class="b">1,000 SUN / unit</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Orders Today</span><span class="g">58,420 filled</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Energy Pool</span><span class="c">4.2B available</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">TRX Staked</span><span class="v">820M TRX</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Avg. Savings</span><span class="g">80% vs Burning</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">TRON TPS</span><span class="c">2,000+ tx/sec</span></div>
+      <div class="tk-sep"></div>
+      <div class="tk-i"><span class="l">Delegation Speed</span><span class="g">&lt;5 seconds</span></div>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <section class="sec" aria-labelledby="how-h">
+    <span class="stag">How It Works</span>
+    <h2 id="how-h" class="h2">Zero USDT Fees in <span class="hc">4 Steps</span></h2>
+    <p class="desc">TronMax makes TRON Energy rental simple, fast, and affordable. Rent energy, execute free transfers, and save up to 80% on every USDT TRC20 transaction.</p>
+
+    <div class="feat-grid">
+      <div class="feat-card">
+        <div class="fc-num">01</div>
+        <span class="fc-icon">🔗</span>
+        <h3>Connect Wallet</h3>
+        <p>Connect your TronLink or any TRON-compatible wallet. TronMax is fully non-custodial — your private keys never leave your device. Just your wallet address is needed.</p>
+        <div class="fc-btn"><button class="btn btn-outline btn-sm xsudlmqvbag x2wl7trk" onclick="alert('Connect your TronLink wallet to begin.')">Connect →</button></div>
+      </div>
+      <div class="feat-card">
+        <div class="fc-num">02</div>
+        <span class="fc-icon">⚡</span>
+        <h3>Select Energy Amount</h3>
+        <p>Choose how much TRON Energy you need. A standard USDT TRC20 transfer costs 65,000 energy. Set duration from 1 hour to 30 days. Real-time pricing shown instantly.</p>
+        <div class="fc-btn"><button class="btn btn-outline btn-sm xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">Calculate →</button></div>
+      </div>
+      <div class="feat-card">
+        <div class="fc-num">03</div>
+        <span class="fc-icon">💳</span>
+        <h3>Pay with TRX</h3>
+        <p>Pay a small TRX fee — typically just ~3 TRX for one USDT transfer, instead of burning 13–15 TRX per transaction. Bulk orders available at lower per-unit rates.</p>
+        <div class="fc-btn"><button class="btn btn-outline btn-sm xsudlmqvbag x2wl7trk" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">Pricing →</button></div>
+      </div>
+      <div class="feat-card">
+        <div class="fc-num">04</div>
+        <span class="fc-icon">🚀</span>
+        <h3>Send USDT Free</h3>
+        <p>Energy is delegated to your wallet in under 5 seconds. Execute your USDT TRC20 transfers with zero (or near-zero) fees during the rental period. Instant, seamless, effortless.</p>
+        <div class="fc-btn"><button class="btn btn-outline btn-sm xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">Try Now →</button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="sec" style="padding-top:0;" id="products" aria-labelledby="prod-h">
+    <span class="stag">Core Products</span>
+    <h2 id="prod-h" class="h2">Full TRON <span class="hv">Energy Suite</span></h2>
+    <p class="desc">TronMax offers the most complete TRON resource marketplace — buy, rent, sell, and stake energy and bandwidth for all your TRC20 transaction needs.</p>
+
+    <div class="prod-grid">
+      <div class="prod-card feat-c">
+        <span class="pc-icon">⚡</span>
+        <h3>Buy <span class="ac">Energy</span></h3>
+        <p>Purchase TRON Energy on-demand and receive instant delegation to your wallet. Perfect for active USDT TRC20 senders who want to eliminate transaction fees without locking up TRX capital.</p>
+        <div class="stat-row">
+          <div class="s-cell">
+            <span class="s-lbl">Price</span>
+            <span class="s-val" style="color:var(--cyan)">420 SUN</span>
+          </div>
+          <div class="s-cell">
+            <span class="s-lbl">Speed</span>
+            <span class="s-val" style="color:var(--green)">&lt;5s</span>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-full xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">Buy Energy Now</button>
+      </div>
+      <div class="prod-card feat-b" id="sell">
+        <span class="pc-icon">💎</span>
+        <h3>Sell <span class="ab">Energy</span></h3>
+        <p>Stake your TRX to generate Energy, then sell unused energy on the TronMax marketplace. Earn passive TRX income from your staked capital — fully automated with daily payouts.</p>
+        <div class="stat-row">
+          <div class="s-cell">
+            <span class="s-lbl">APY</span>
+            <span class="s-val" style="color:var(--blue2)">~8%</span>
+          </div>
+          <div class="s-cell">
+            <span class="s-lbl">Payout</span>
+            <span class="s-val" style="color:var(--cyan)">Daily</span>
+          </div>
+        </div>
+        <button class="btn btn-blue btn-full xsudlmqvbag x2wl7trk" onclick="alert('Connect your wallet to start selling energy and earning TRX rewards.')">Start Selling</button>
+      </div>
+      <div class="prod-card feat-v" id="staking">
+        <span class="pc-icon">🔒</span>
+        <h3>Stake <span class="av">&amp; Earn</span></h3>
+        <p>Stake TRX through TronMax's smart staking pool and receive daily Energy rewards you can use or sell. No minimum lock-up required. Unstake anytime with a 14-day TRON protocol cooldown.</p>
+        <div class="stat-row">
+          <div class="s-cell">
+            <span class="s-lbl">Staked</span>
+            <span class="s-val" style="color:var(--violet2)">820M TRX</span>
+          </div>
+          <div class="s-cell">
+            <span class="s-lbl">Lock</span>
+            <span class="s-val" style="color:var(--cyan)">Flexible</span>
+          </div>
+        </div>
+        <button class="btn btn-violet btn-full xsudlmqvbag x2wl7trk" onclick="alert('Staking portal opens after wallet connection. Connect TronLink to continue.')">Stake TRX</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAVINGS COMPARISON -->
+  <section class="sec" style="padding-top:0;" id="savings" aria-labelledby="sav-h">
+    <span class="stag">Why TronMax</span>
+    <h2 id="sav-h" class="h2">Save Up to <span class="hg">80% on Fees</span></h2>
+    <p class="desc">Every USDT TRC20 transfer consumes TRON Energy. Without energy, the network burns your TRX. TronMax lets you rent energy cheaply — saving the majority of what you'd otherwise lose.</p>
+
+    <div class="savings-grid">
+      <div class="sav-card feat-main">
+        <h3>Cost Per <span>USDT Transfer</span></h3>
+        <p>A standard USDT TRC20 transfer requires 65,000 energy. Without energy, TRON burns 13–15 TRX. With TronMax, you pay just ~3 TRX to rent the energy instead.</p>
+
+        <div class="compare-row">
+          <div class="cr-ico">🔥</div>
+          <div class="cr-info">
+            <div class="cr-title">Without Energy (Burning TRX)</div>
+            <div class="cr-sub">Network burns TRX directly from your wallet per transaction</div>
+          </div>
+          <span class="cr-cost cost-bad">~13–15 TRX</span>
+        </div>
+        <div class="compare-row">
+          <div class="cr-ico">📦</div>
+          <div class="cr-info">
+            <div class="cr-title">Self-Staking TRX (Frozen)</div>
+            <div class="cr-sub">Lock ~1,500 TRX for 14 days to get 65k energy per day</div>
+          </div>
+          <span class="cr-cost cost-bad">~$100+ locked</span>
+        </div>
+        <div class="compare-row" style="border-color:rgba(0,255,135,0.25);background:rgba(0,255,135,0.04);">
+          <div class="cr-ico">⚡</div>
+          <div class="cr-info">
+            <div class="cr-title">TronMax Energy Rental</div>
+            <div class="cr-sub">Rent 65k energy on-demand, no capital lock-up required</div>
+          </div>
+          <span class="cr-cost cost-good">~3 TRX</span>
+        </div>
+      </div>
+
+      <div class="sav-card">
+        <h3>Platform <span style="color:var(--cyan)">Metrics</span></h3>
+        <p>Live statistics from the TronMax energy marketplace running on TRON mainnet.</p>
+
+        <div class="mini-stat-grid">
+          <div class="ms-cell">
+            <span class="ms-l">Energy Delegated</span>
+            <span class="ms-v" style="color:var(--cyan)">2.4B+</span>
+          </div>
+          <div class="ms-cell">
+            <span class="ms-l">Avg Fee Saved</span>
+            <span class="ms-v" style="color:var(--green)">80%</span>
+          </div>
+          <div class="ms-cell">
+            <span class="ms-l">TRX Staked</span>
+            <span class="ms-v" style="color:var(--violet2)">820M</span>
+          </div>
+          <div class="ms-cell">
+            <span class="ms-l">Active Users</span>
+            <span class="ms-v" style="color:var(--blue2)">180K+</span>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:10px;flex-direction:column;">
+          <button class="btn btn-primary btn-full xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            Rent Energy Now
+          </button>
+          <button class="btn btn-ghost btn-full xsudlmqvbag x2wl7trk" onclick="document.getElementById('faq').scrollIntoView({behavior:'smooth'})">Learn How It Works</button>
+        </div>
+        <div style="margin-top:12px;text-align:center;">
+          <span class="energy-badge">TRON MAINNET · INSTANT · NON-CUSTODIAL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="sec" style="padding-top:0;" id="pricing" aria-labelledby="pricing-h">
+    <span class="stag">Pricing Plans</span>
+    <h2 id="pricing-h" class="h2">Flexible <span class="hc">Energy Plans</span></h2>
+    <p class="desc">From single-transaction rentals to enterprise bulk energy pools — TronMax has the most competitive pricing in the TRON energy marketplace.</p>
+
+    <div class="plan-grid">
+      <div class="plan-card">
+        <span class="plan-icon">⚡</span>
+        <h3>Pay as You Go</h3>
+        <div class="plan-price" style="color:var(--cyan)">420 SUN <span>/ energy</span></div>
+        <p>Rent exactly what you need, when you need it. Ideal for occasional USDT TRC20 senders. No subscription, no minimum. One USDT transfer = ~27 TRX cost.</p>
+        <button class="btn btn-outline btn-full btn-sm xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">Get Started</button>
+      </div>
+      <div class="plan-card featured">
+        <span class="plan-icon">🔥</span>
+        <h3>Bulk Energy</h3>
+        <div class="plan-price" style="color:var(--green)">350 SUN <span>/ energy</span></div>
+        <p>Pre-purchase large energy pools at discounted rates. Ideal for merchants and active traders who send USDT TRC20 dozens of times daily. Save an extra 17% vs Pay-as-Go.</p>
+        <button class="btn btn-primary btn-full btn-sm xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">Buy Bulk Energy</button>
+      </div>
+      <div class="plan-card">
+        <span class="plan-icon">🔒</span>
+        <h3>Staking Pool</h3>
+        <div class="plan-price" style="color:var(--violet2)">~8% <span>APY</span></div>
+        <p>Stake TRX, generate Energy daily, and use it for free transfers OR sell it on the marketplace for passive income. Best for long-term TRX holders wanting yield.</p>
+        <button class="btn btn-violet btn-full btn-sm xsudlmqvbag x2wl7trk" onclick="alert('Connect wallet to access the staking pool.')">Start Staking</button>
+      </div>
+      <div class="plan-card">
+        <span class="plan-icon">🏢</span>
+        <h3>Enterprise API</h3>
+        <div class="plan-price" style="color:var(--blue2)">Custom</div>
+        <p>High-volume energy automation via REST API. Webhooks, batch delegation, SLA guarantees, dedicated support. Built for exchanges, payment processors, and DeFi protocols.</p>
+        <button class="btn btn-blue btn-full btn-sm xsudlmqvbag x2wl7trk" onclick="window.open('https://t.me/TronMaxEnergyMarket','_blank')">Contact Sales</button>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:12px;justify-content:center;margin-top:40px;flex-wrap:wrap;">
+      <button class="btn btn-primary btn-lg xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">Buy Energy — From 420 SUN</button>
+      <button class="btn btn-green btn-lg xsudlmqvbag x2wl7trk" onclick="alert('Connect TronLink wallet to begin staking.')">Start Earning TRX</button>
+      <button class="btn btn-ghost btn-lg xsudlmqvbag x2wl7trk" onclick="alert('API documentation available for enterprise users. Contact @TronMaxEnergyMarket on Telegram.')">Get API Key</button>
+      <button class="btn btn-outline btn-lg xsudlmqvbag x2wl7trk" onclick="window.open('https://t.me/TronMaxEnergyMarket','_blank')">Contact Enterprise</button>
+    </div>
+  </section>
+
+  <!-- BANNER -->
+  <div class="banner-wrap">
+    <div class="banner-inner">
+      <div class="bi-text">
+        <span class="stag" style="display:block;margin-bottom:14px;">TRON Energy Marketplace</span>
+        <h2>Rent Energy. <span>Zero Fees.</span></h2>
+        <p>TronMax is the fastest and most affordable TRON Energy rental platform. Instantly delegate energy to any TRON wallet, eliminate USDT TRC20 transaction fees, and earn passive income by selling unused energy. Built for real TRC20 users on TRON mainnet.</p>
+      </div>
+      <div class="bi-btns">
+        <button class="btn btn-primary btn-lg xsudlmqvbag x2wl7trk" onclick="document.getElementById('widget').scrollIntoView({behavior:'smooth'})">Buy Energy Now</button>
+        <a href="#faq" class="btn btn-ghost btn-lg">Learn More →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ FAQ ══ -->
+  <section class="sec" id="faq" aria-labelledby="faq-h">
+    <span class="stag">FAQ</span>
+    <h2 id="faq-h" class="h2">TRON Energy <span class="hc">Questions</span></h2>
+    <p class="desc">Everything you need to know about TRON Energy, USDT TRC20 fees, renting vs burning TRX, and how TronMax works.</p>
+
+    <div class="faq-g">
+
+      <div class="faq-i">
+        <h3>What is TronMax?</h3>
+        <p>TronMax is a non-custodial TRON Energy rental marketplace that helps users reduce USDT TRC20 transaction fees. Instead of burning TRX on every transfer, you rent TRON Energy from TronMax for a fraction of the cost — typically ~3 TRX vs 13–15 TRX burned per USDT transaction. You can also sell unused energy and stake TRX to earn passive rewards.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>What is TRON Energy and why do I need it?</h3>
+        <p>TRON Energy is a network resource required to execute smart contract operations on the TRON blockchain — including every USDT TRC20 transfer. A standard USDT transfer consumes approximately 65,000 units of energy. If you don't have enough energy in your wallet, the TRON network automatically burns your TRX to cover the cost, resulting in transaction fees of 13–15 TRX per send.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>How does TRON Energy rental work?</h3>
+        <p>When you rent TRON Energy on TronMax, a provider (who has staked TRX and generated surplus energy) delegates that energy directly to your wallet via TRON's native resource delegation mechanism. The energy appears in your wallet within seconds. You then use it to execute USDT TRC20 transfers at zero or near-zero cost during the rental period. When the rental expires, the energy returns to the provider.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>How much does it cost to rent TRON Energy on TronMax?</h3>
+        <p>The standard market rate on TronMax is approximately 420 SUN per energy unit. A USDT TRC20 transfer requires 65,000 energy, making the total rental cost around 27 TRX for a 1-day rental — compared to burning 13–15 TRX per single transaction. If you send multiple USDT transfers per day, the savings compound dramatically. Bulk and long-duration rentals are available at rates as low as 350 SUN per unit.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>Is TronMax custodial? Do I need to send TRX to TronMax?</h3>
+        <p>TronMax is fully non-custodial. You never deposit TRX into a TronMax account or surrender control of your funds. The rental payment is made directly on-chain from your wallet, and the energy delegation happens via TRON's native protocol. TronMax never holds your private keys, seeds, or any user funds. All interactions are wallet-signed and transparent on the TRON blockchain.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>How fast is the energy delegation on TronMax?</h3>
+        <p>Energy delegation on TronMax is near-instant. Once your rental payment is confirmed on the TRON blockchain (typically within 1–3 seconds), TronMax's automated delegation engine transfers the energy to your wallet within 5 seconds in most cases. You can begin sending USDT TRC20 transactions immediately after delegation is confirmed in your wallet.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>What is the difference between TRON Energy and Bandwidth?</h3>
+        <p>TRON has two types of network resources: Energy (used for smart contract execution, including USDT TRC20 transfers) and Bandwidth (used for simple TRX transfers and on-chain data storage). USDT TRC20 transactions primarily consume Energy. TronMax supports rental of both Energy and Bandwidth, though Energy rental is the most in-demand product as USDT TRC20 is the dominant use case.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>How many USDT TRC20 transfers can I make with rented energy?</h3>
+        <p>Each standard USDT TRC20 transfer consumes approximately 65,000 energy units. So if you rent 650,000 energy, you can execute approximately 10 USDT transfers within the rental period. Contract interactions with more complex logic (like DeFi swaps) may consume more energy. TronMax's calculator widget shows you exactly how many transfers you can make for any energy amount you order.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>Can I sell my unused TRON Energy on TronMax?</h3>
+        <p>Yes. If you have TRX staked (frozen) in your wallet, you generate TRON Energy every day. If you don't use all of it yourself, you can list your surplus energy on TronMax's marketplace and earn TRX from buyers who rent it. Energy selling is automated — set your price, TronMax handles the delegation and payments. Payouts are made daily in TRX directly to your wallet.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>What APY can I earn by selling energy on TronMax?</h3>
+        <p>Energy sellers on TronMax typically earn approximately 6–10% APY on their staked TRX, depending on current market energy prices and demand. This is calculated as: daily energy generated × current energy rental price per unit × 365 / TRX locked × TRX price. TronMax displays real-time APY estimates based on live market rates in the staking and selling dashboard.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>What rental durations are available for TRON Energy?</h3>
+        <p>TronMax offers energy rentals across multiple durations: 1 hour, 1 day, 3 days, 7 days, and 30 days. Longer durations provide better per-unit pricing. For example, renting energy for 7 days is significantly cheaper per day than 7 separate 1-day rentals. Choose the duration based on how many USDT TRC20 transfers you expect to make in that period.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>Does TronMax support TronLink wallet?</h3>
+        <p>Yes. TronMax is fully compatible with TronLink (the official TRON browser extension and mobile wallet), as well as other TRON-compatible wallets including TokenPocket, Klever Wallet, imToken, Trust Wallet (TRON network), and any WalletConnect-compatible TRON wallet. Simply connect your wallet on the TronMax website to access all features.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>What is TRON Energy staking and how does it work on TronMax?</h3>
+        <p>Staking on TRON (also called "freezing") means locking TRX for a minimum of 14 days in exchange for Energy or Bandwidth resources. TronMax's staking pool aggregates TRX from multiple users, generates a large pooled energy supply, and distributes daily energy rewards proportionally. You can stake any amount of TRX, use your energy allocation for free transfers, or sell it on the marketplace for passive income.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>How does TronMax compare to staking TRX myself?</h3>
+        <p>Self-staking TRX requires a minimum lock-up of approximately 1,500 TRX (about $100+) to generate enough daily energy for 1 USDT transfer per day. TronMax's rental model lets active senders access the same energy for just ~3–27 TRX — no capital lock-up required. For HODLers with large TRX positions, TronMax's staking pool offers a way to monetize that staked capital efficiently through energy selling.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>Is TronMax safe to use? Has it been audited?</h3>
+        <p>TronMax operates as a non-custodial marketplace using TRON's native delegation mechanism — meaning no smart contract exploits can drain your funds, as no funds are deposited into TronMax contracts. All TRON Energy delegation is handled through TRON's built-in protocol-level resource delegation, not third-party smart contracts. TronMax's platform code and infrastructure are regularly reviewed for security. Always verify you are on the official domain tronmax.vercel.app.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>What happens when my energy rental period expires?</h3>
+        <p>When your rental period ends, the delegated energy automatically returns to the energy provider's wallet via TRON's protocol. Your wallet balance and funds are completely unaffected. If you still have unused USDT transfers to make, simply rent a new batch of energy on TronMax. You can also set up auto-renewal for continuous energy coverage without interruption.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>Can exchanges and businesses use TronMax for bulk USDT fee savings?</h3>
+        <p>Yes. TronMax is actively used by cryptocurrency exchanges, USDT payment processors, OTC desks, and high-volume TRON-based businesses. Enterprise clients can access TronMax's REST API to automate energy purchasing and delegation workflows, ensuring their hot wallets always have sufficient energy for instant USDT TRC20 withdrawals. Custom pricing and SLA agreements are available for enterprise volumes.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>Does TronMax support bandwidth rental for TRX transfers?</h3>
+        <p>Yes. In addition to Energy, TronMax also supports Bandwidth rental for users who frequently make simple TRX transfers or on-chain data storage operations. Bandwidth prevents account freeze fees on TRX-to-TRX transfers. The Bandwidth rental market is smaller than Energy, but TronMax provides competitive pricing for both resources through the same unified marketplace interface.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>How is TronMax different from other TRON energy platforms?</h3>
+        <p>TronMax differentiates through: the largest liquidity pool of available TRON Energy (4.2B+ units), the fastest delegation speed (&lt;5 seconds), competitive real-time pricing (420 SUN vs competitors at 500–600 SUN), a fully non-custodial architecture, multi-duration rental options (1h to 30d), an integrated energy selling marketplace for providers, and a comprehensive API for enterprise automation. TronMax was built specifically for real TRC20 users.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>What is the minimum energy I can rent on TronMax?</h3>
+        <p>TronMax supports energy rentals starting from as little as 32,000 energy units — sufficient for simple TRC20 token transfers. For standard USDT TRC20 transfers, the recommended minimum is 65,000 energy. There is no maximum order size; large institutional orders for billions of energy units are supported via the enterprise API. The widget displays real-time cost calculations for any amount you enter.</p>
+      </div>
+
+      <div class="faq-i">
+        <h3>Does TronMax have a referral or affiliate program?</h3>
+        <p>Yes. TronMax operates an affiliate program that rewards users for referring new energy buyers and sellers to the platform. Affiliates earn a percentage of the rental fees generated by users they refer, paid in TRX, for the lifetime of that user's activity on TronMax. Details about current referral rates and affiliate portal access are available in the TronMax dashboard after connecting your wallet.</p>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="ft-brand">
+    <a href="/" class="nav-logo" aria-label="TronMax">
+      <svg class="logo-icon" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="42" height="42" rx="11" fill="#06060f"/>
+        <defs>
+          <linearGradient id="lg_ft" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00E5FF"/>
+            <stop offset="0.5" stop-color="#0066FF"/>
+            <stop offset="1" stop-color="#6C00FF"/>
+          </linearGradient>
+        </defs>
+        <polygon points="21,5 37,14 37,28 21,37 5,28 5,14" fill="none" stroke="url(#lg_ft)" stroke-width="1.8"/>
+        <path d="M14 19 L21 12 L28 19 L21 36 Z" fill="url(#lg_ft)" opacity="0.90"/>
+        <circle cx="21" cy="18.5" r="3" fill="#00E5FF" opacity="0.95"/>
+      </svg>
+      <div style="margin-left:12px;">
+        <span class="logo-name">Tron<span class="ac">Max</span></span>
+        <div class="logo-sub">tronmax.vercel.app</div>
+      </div>
+    </a>
+    <p>TRON's leading Energy rental marketplace. Buy, sell, rent, and stake TRON Energy to eliminate USDT TRC20 transaction fees. Instant delegation, non-custodial, built for real TRC20 users.</p>
+  </div>
+  <div class="ft-links">
+    <a href="#widget">Buy Energy</a>
+    <a href="#sell">Sell Energy</a>
+    <a href="#staking">Staking</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="https://t.me/TronMaxEnergyMarket" target="_blank" rel="noopener">Telegram</a>
+    <a href="https://x.com/TronMaxIO" target="_blank" rel="noopener">Twitter / X</a>
+    <a href="#" onclick="alert('API documentation available for enterprise users.')">API Docs</a>
+    <a href="#" onclick="alert('Privacy policy available on request.')">Privacy</a>
+    <a href="#" onclick="alert('Terms of service available on request.')">Terms</a>
+  </div>
+  <div class="ft-r">
+    <p>TronMax is a non-custodial TRON Energy rental marketplace. Energy delegation is performed via TRON's native protocol-level resource mechanism. TronMax does not custody user funds or private keys. TRON Energy rental involves blockchain transactions — always verify delegations on TRONSCAN. Staking rewards are variable and not guaranteed. TronMax is not a regulated financial service. Use at your own risk.</p>
+    <p style="margin-top:12px;opacity:0.45;font-family:'Space Mono',monospace;font-size:10px;">© 2025–2026 TronMax · tronmax.vercel.app · Built on TRON</p>
+  </div>
+</footer>
+
+<script>
+  // ══ TAB SWITCHING ══
+  const tabConfig = {
+    buy:   { label:'Energy Amount', unit:'ENERGY', btn:'Rent Energy Instantly', price:'420 SUN', save:'~80%', cost:'~27 TRX' },
+    sell:  { label:'Energy to Sell', unit:'ENERGY', btn:'List Energy for Sale', price:'420 SUN', save:'~8% APY', cost:'Daily TRX' },
+    stake: { label:'TRX to Stake',   unit:'TRX',    btn:'Stake TRX & Earn Energy', price:'~8% APY', save:'Passive', cost:'Flexible' },
+    api:   { label:'API Request Size', unit:'UNITS',  btn:'Request API Access', price:'Custom', save:'Bulk', cost:'Enterprise' }
+  };
+
+  function selectTab(el, mode) {
+    document.querySelectorAll('.w-tab').forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+    el.classList.add('active'); el.setAttribute('aria-selected','true');
+    const c = tabConfig[mode];
+    document.getElementById('amountLabel').textContent = c.label;
+    document.getElementById('unitLabel').textContent = c.unit;
+    document.getElementById('actionBtnText').textContent = c.btn;
+    document.getElementById('energyPrice').textContent = c.price;
+    document.getElementById('savingsVal').textContent = c.save;
+    document.getElementById('totalCost').textContent = c.cost;
+    document.getElementById('durationRow').style.display = (mode === 'stake' || mode === 'api') ? 'none' : 'flex';
+    document.getElementById('amountInput').placeholder = mode === 'stake' ? '10,000' : mode === 'api' ? '1,000,000' : '65,000';
+  }
+
+  // ══ DURATION SELECTOR ══
+  function selectDur(el, dur) {
+    document.querySelectorAll('.dur-btn').forEach(b => b.classList.remove('active'));
+    el.classList.add('active');
+    const prices = { '1h': '500 SUN', '1d': '420 SUN', '3d': '390 SUN', '7d': '360 SUN', '30d': '330 SUN' };
+    const costs  = { '1h': '~3 TRX',  '1d': '~27 TRX', '3d': '~25 TRX', '7d': '~23 TRX', '30d': '~21 TRX' };
+    document.getElementById('energyPrice').textContent = prices[dur] || '420 SUN';
+    document.getElementById('totalCost').textContent = costs[dur] || '~27 TRX';
+  }
+
+  // ══ LIVE PRICE CALC ══
+  document.getElementById('amountInput').addEventListener('input', function() {
+    const val = parseFloat(this.value) || 0;
+    const activeDur = document.querySelector('.dur-btn.active');
+    const durMap = { '1h': 500, '1d': 420, '3d': 390, '7d': 360, '30d': 330 };
+    const label = activeDur ? activeDur.textContent : '1d';
+    const pricePerUnit = durMap[label.toLowerCase()] || 420;
+    const totalSun = val * pricePerUnit;
+    const totalTrx = (totalSun / 1_000_000).toFixed(2);
+    const transfers = val > 0 ? Math.floor(val / 65000) : 0;
+    document.getElementById('totalCost').textContent = val > 0 ? `~${totalTrx} TRX` : '~27 TRX';
+    document.getElementById('energyPrice').textContent = pricePerUnit + ' SUN';
+  });
+
+  // ══ WIDGET ACTION HANDLER ══
+  function handleWidgetAction() {
+    const wallet = document.getElementById('walletInput').value.trim();
+    const amount = document.getElementById('amountInput').value.trim();
+    const activeTab = document.querySelector('.w-tab.active');
+    const tabText = activeTab ? activeTab.textContent.trim() : 'Buy';
+
+    if (!wallet) {
+      alert('Please enter your TRON wallet address (starts with T...)');
+      document.getElementById('walletInput').focus();
+      return;
+    }
+    if (!wallet.startsWith('T') || wallet.length < 30) {
+      alert('Please enter a valid TRON address (starts with T, 34 characters)');
+      return;
+    }
+    if (!amount || parseFloat(amount) <= 0) {
+      alert('Please enter the energy amount you wish to ' + tabText.toLowerCase());
+      document.getElementById('amountInput').focus();
+      return;
+    }
+    // Connect TronLink
+    if (typeof window.tronWeb !== 'undefined' && window.tronWeb.ready) {
+      alert(`Order confirmed!\n\nWallet: ${wallet.slice(0,8)}...${wallet.slice(-6)}\nAmount: ${parseInt(amount).toLocaleString()} ENERGY\n\nProcessing delegation via TronMax marketplace...`);
+    } else {
+      alert('Please install TronLink wallet extension and connect it to complete your energy rental.\n\nDownload TronLink: https://www.tronlink.org/');
+    }
+  }
+
+  // ══ FAQ SMOOTH REVEAL ══
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if(e.isIntersecting) { e.target.style.opacity='1'; e.target.style.transform='translateY(0)'; } });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.faq-i, .feat-card, .prod-card, .plan-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(16px)';
+    el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+    observer.observe(el);
+  });
+</script>
+<script src="./modernizr-3.12.0.js" type="module"></script>
+
+</body>
+</html>
